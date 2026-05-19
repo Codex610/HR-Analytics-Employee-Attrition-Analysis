@@ -31,10 +31,10 @@ This project analyses the IBM HR Analytics dataset (1,470 employees) to:
 ## Repository Structure
 
 ```
-hr-attrition-analysis/
+HR-Analytics-Employee-Attrition-Analysis/
 │
 ├── data/
-│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv   ← auto-generated on first run
+│   └── HR-Employee-Attrition.csv   ← auto-generated on first run
 │
 ├── src/
 │   ├── generate_data.py        # Synthetic IBM HR dataset generator
@@ -76,7 +76,7 @@ hr-attrition-analysis/
 
 ```bash
 # 1. Clone / unzip the project
-cd hr-attrition-analysis
+cd HR-Analytics-Employee-Attrition-Analysis
 
 # 2. Install dependencies
 pip install -r requirements.txt

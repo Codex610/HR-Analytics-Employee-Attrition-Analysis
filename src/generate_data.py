@@ -126,6 +126,6 @@ def generate_hr_dataset() -> pd.DataFrame:
 
 if __name__ == "__main__":
     df = generate_hr_dataset()
-    df.to_csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv", index=False)
+    df.to_csv("data/HR-Employee-Attrition.csv", index=False)
     print(f"Dataset saved: {df.shape[0]} rows × {df.shape[1]} cols")
     print(f"Attrition rate: {df['Attrition'].value_counts(normalize=True)['Yes']:.1%}")
