@@ -1,7 +1,6 @@
 # HR Analytics & Employee Attrition Analysis
 
 > **Python · SQL · Pandas · Power BI · Scikit-learn · SHAP · Seaborn · Logistic Regression**  
-> February 2026
 
 ---
 
@@ -34,7 +33,7 @@ This project analyses the IBM HR Analytics dataset (1,470 employees) to:
 HR-Analytics-Employee-Attrition-Analysis/
 │
 ├── data/
-│   └── HR-Employee-Attrition.csv   ← auto-generated on first run
+│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv   ← auto-generated on first run
 │
 ├── src/
 │   ├── generate_data.py        # Synthetic IBM HR dataset generator
