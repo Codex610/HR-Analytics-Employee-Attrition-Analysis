@@ -46,8 +46,13 @@ HR-Analytics-Employee-Attrition-Analysis/
 │   └── hr_analytics_queries.sql  # 12 production-ready SQL queries
 │
 ├── dashboard/
-│   └── POWERBI_GUIDE.md          # Full step-by-step Power BI replication guide
+│   └── Page-1: Executive heatmap
+|   └── Page-2: Attrition Heatmap
+|   └── Page-3: 6 month forecast and risk score  
 │
+├──powerbi/
+|   └── Executive Overview         # power bi daashboard file
+|
 ├── outputs/                       # Auto-created on first run
 │   ├── 01_attrition_overview.png
 │   ├── 02_key_drivers.png
